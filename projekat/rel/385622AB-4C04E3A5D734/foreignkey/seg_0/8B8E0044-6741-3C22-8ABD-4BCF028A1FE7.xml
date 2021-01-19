@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8B8E0044-6741-3C22-8ABD-4BCF028A1FE7" containerWithKeyObject="F4B09DDD-D121-C851-218D-3F4EA30F711E" localFKIndex="FD9FDC22-B663-81BA-7249-D720B17073C1" name="Prodavac_Zaposlenik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>074FC8E4-2D39-F340-B954-48CF7E46B8A7</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Zaposlenik</referredTableLongName>
+<arc>B4A178F0-5CA0-B41C-9A5B-16C325BABA27</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CF75FEA8-8FB6-78F0-E2A1-28A00E54667B</referredTableID>
+<keyObject>71B2E28D-45F8-AEC5-ED03-270E603D916D</keyObject>
+<referredKeyID>71B2E28D-45F8-AEC5-ED03-270E603D916D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>jmbgzaposlenog</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Prodavac</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Poseduje" directorySegmentName="seg_0" id="84563216-5E54-2D8D-DD97-C5E9AC98231C">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 22:03:38 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<sourcePk>906C594B-D4F7-4343-B5F0-AE723323FAC8</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DAADCE49-89F7-7999-D443-21807DA0D5E2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D3AE29BF-F4E0-07F3-1146-2C999A8912AF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8ED433DC-CE4F-DB06-B5B9-65C872748155" name="Pripada">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac1&apos;,&apos;stand1&apos;,&apos;1111998823424&apos;,&apos;Plazma sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0308996840504&apos;,&apos;Plazma sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0404995375804&apos;,&apos;Plazma sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand3&apos;,&apos;0805995024565&apos;,&apos;Plazma sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac3&apos;,&apos;stand5&apos;,&apos;1403998944201&apos;,&apos;Plazma sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac1&apos;,&apos;stand1&apos;,&apos;1111998823424&apos;,&apos;Mars sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0308996840504&apos;,&apos;Mars sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0404995375804&apos;,&apos;Mars sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand3&apos;,&apos;0805995024565&apos;,&apos;Mars sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac3&apos;,&apos;stand5&apos;,&apos;1403998944201&apos;,&apos;Mars sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac1&apos;,&apos;stand1&apos;,&apos;1111998823424&apos;,&apos;Rum sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0308996840504&apos;,&apos;Rum sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0404995375804&apos;,&apos;Rum sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand3&apos;,&apos;0805995024565&apos;,&apos;Rum sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac3&apos;,&apos;stand5&apos;,&apos;1403998944201&apos;,&apos;Rum sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac1&apos;,&apos;stand1&apos;,&apos;1111998823424&apos;,&apos;Rafaelo sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0308996840504&apos;,&apos;Rafaelo sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0404995375804&apos;,&apos;Rafaelo sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand3&apos;,&apos;0805995024565&apos;,&apos;Rafaelo sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac3&apos;,&apos;stand5&apos;,&apos;1403998944201&apos;,&apos;Rafaelo sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac1&apos;,&apos;stand1&apos;,&apos;1111998823424&apos;,&apos;Vanila sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0308996840504&apos;,&apos;Vanila sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand2&apos;,&apos;0404995375804&apos;,&apos;Vanila sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac2&apos;,&apos;stand3&apos;,&apos;0805995024565&apos;,&apos;Vanila sladoled&apos;);&lt;br/&gt;INSERT INTO PRIPADA (NALAZI_IDLANCA,NALAZI_IDSTANDA,NALAZI_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;lanac3&apos;,&apos;stand5&apos;,&apos;1403998944201&apos;,&apos;Vanila sladoled&apos;);&lt;br/&gt;&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nalazi_idstanda" id="847B682A-457A-8A7A-E918-7D69986A461E">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAFA7F17-3E9F-55E5-5BC2-41EADDDBCED0" referredColumn="9D1FDEFA-8BEC-DF66-0961-EE9F5F0C6EBB"/>
+</associations>
+</Column>
+<Column name="Nalazi_idlanca" id="F8D1AF52-E600-6E11-5CB7-1DFBD93AB2BC">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAFA7F17-3E9F-55E5-5BC2-41EADDDBCED0" referredColumn="C226D7F5-CC39-1AAE-8F38-34F268158EE3"/>
+</associations>
+</Column>
+<Column name="Nalazi_jmbgzaposlenog" id="999C4649-6140-F1AA-537E-58DA1537942F">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAFA7F17-3E9F-55E5-5BC2-41EADDDBCED0" referredColumn="613E8B40-B3A4-C91E-B4F1-E426BA5D65F7"/>
+</associations>
+</Column>
+<Column name="Sladoled_nazivsladoleda" id="0F474A57-B061-462A-4138-2E989BFFF1D4">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="738903D9-5516-517F-BD5F-E4D8B4CEEFD0" referredColumn="4F826A06-4F28-4FC9-1FB0-B0F3D8473FBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B793BF7-5FD7-799C-659E-34F016D7516F" name="Pripada_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="847B682A-457A-8A7A-E918-7D69986A461E"/>
+<colUsage columnID="F8D1AF52-E600-6E11-5CB7-1DFBD93AB2BC"/>
+<colUsage columnID="999C4649-6140-F1AA-537E-58DA1537942F"/>
+<colUsage columnID="0F474A57-B061-462A-4138-2E989BFFF1D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="681F5906-E044-3B83-C9CB-A8B76E59B02E" name="Pripada_Nalazi_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>13982FF1-790A-06B9-469B-9939B73FE606</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="847B682A-457A-8A7A-E918-7D69986A461E"/>
+<colUsage columnID="F8D1AF52-E600-6E11-5CB7-1DFBD93AB2BC"/>
+<colUsage columnID="999C4649-6140-F1AA-537E-58DA1537942F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84BABE8F-CC3D-E07B-BBC2-67775833C7A6" name="Pripada_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>13982FF1-790A-06B9-469B-9939B73FE606</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F474A57-B061-462A-4138-2E989BFFF1D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

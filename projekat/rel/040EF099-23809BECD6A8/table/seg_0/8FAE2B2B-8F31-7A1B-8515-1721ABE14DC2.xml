@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FAE2B2B-8F31-7A1B-8515-1721ABE14DC2" name="Nabavlja">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;2405995653780&apos;,&apos;Rafaelo sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;2405995653780&apos;,&apos;Mars sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;2405995653780&apos;,&apos;Rum sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;2405995653780&apos;,&apos;Plazma sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;2405995653780&apos;,&apos;Vanila sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;2405995653780&apos;,&apos;Kinder sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;1408998157300&apos;,&apos;Rafaelo sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;1408998157300&apos;,&apos;Mars sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;1408998157300&apos;,&apos;Rum sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;1408998157300&apos;,&apos;Plazma sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;1408998157300&apos;,&apos;Vanila sladoled&apos;);&lt;br/&gt;INSERT INTO NABAVLJA (NABAVLJAC_JMBGZAPOSLENOG,SLADOLED_NAZIVSLADOLEDA) VALUES (&apos;1408998157300&apos;,&apos;Kinder sladoled&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nabavljac_jmbgzaposlenog" id="03C9F874-D6DD-343D-6899-45E444BE621D">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD61F203-4880-6108-1860-B1FFEF370A39" referredColumn="CBE7F993-7C53-7EBC-33F8-FD52CAF0910F"/>
+</associations>
+</Column>
+<Column name="Sladoled_nazivsladoleda" id="F0DB8AC2-1D3A-8DA9-EF77-20D8FCC04ABB">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F5D5AAD-5ACC-DDEC-3AFD-77EDD1A35916" referredColumn="4F826A06-4F28-4FC9-1FB0-B0F3D8473FBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0E8516B-288D-62AE-7B56-2B6A056B5A03" name="Nabavlja_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C9F874-D6DD-343D-6899-45E444BE621D"/>
+<colUsage columnID="F0DB8AC2-1D3A-8DA9-EF77-20D8FCC04ABB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E70FAE0E-3B9C-80AC-48F9-63180604CCF8" name="Nabavlja_Nabavljac_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>06CCE082-CF82-0CEB-EF55-97561AF9DD27</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03C9F874-D6DD-343D-6899-45E444BE621D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9373D4FF-A3C9-6A18-6D7C-62BB25A1F269" name="Nabavlja_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>06CCE082-CF82-0CEB-EF55-97561AF9DD27</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0DB8AC2-1D3A-8DA9-EF77-20D8FCC04ABB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0849789-36D1-9C76-F56E-FA1EE7954C0F" containerWithKeyObject="95B19588-62CB-9DBB-56DE-49AC9A57CB96" localFKIndex="A991F3BF-4726-3E9D-BD97-3B5C3A3B72CF" name="Radna_uniforma_Zaposlenik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>93CD92B5-9896-7872-21BA-43AFB19FF053</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Zaposlenik</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A30DBFC5-1022-45D5-8521-804FF0E6C3DE</referredTableID>
+<keyObject>8BC82591-9B31-A93B-29DC-9B3AEC4BF49B</keyObject>
+<referredKeyID>8BC82591-9B31-A93B-29DC-9B3AEC4BF49B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>jmbgzaposlenog</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

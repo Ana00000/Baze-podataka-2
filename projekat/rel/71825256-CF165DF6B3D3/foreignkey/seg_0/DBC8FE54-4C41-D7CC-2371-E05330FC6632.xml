@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBC8FE54-4C41-D7CC-2371-E05330FC6632" containerWithKeyObject="4AC07101-5D43-7338-DB25-977C964D3EA3" localFKIndex="1E7E2122-497E-ED22-0A07-C988E0410104" name="Stavka_Račun_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>6C3C5DD7-DEEE-92B7-7E30-216576BA0780</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Račun</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>50696C61-4F2E-28BE-A251-BD2BA98209FE</referredTableID>
+<keyObject>96C0B43A-9BE6-A2E3-88FF-C0C5EEDDCE8A</keyObject>
+<referredKeyID>96C0B43A-9BE6-A2E3-88FF-C0C5EEDDCE8A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idracuna</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

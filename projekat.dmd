@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="projekat" id="D6C1D46F-D41C-5A77-1340-627CBB773963" version="3.5">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 20:41:24 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D6C1D46F-D41C-5A77-1340-627CBB773963</designId>
+</OSDM_Design>

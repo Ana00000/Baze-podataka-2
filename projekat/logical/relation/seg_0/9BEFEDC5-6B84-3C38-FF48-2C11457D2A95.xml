@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Naplacuje" directorySegmentName="seg_0" id="9BEFEDC5-6B84-3C38-FF48-2C11457D2A95">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 22:46:12 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<sourcePk>DE9657EB-9122-281B-D469-400A74EE3E80</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F9A319A5-48FE-D463-3F21-D5EE87E6AF29</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2D0598A0-B5C5-66E1-836B-07EDC6E7AEFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

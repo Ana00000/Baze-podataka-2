@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="17E4CDC2-7B08-E3A8-BE05-D57A8A30ED7F" name="SladoledUCiniji">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 00:28:07 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="18E200F1-93BA-61BC-6AF4-F1AF2F6F2315" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DF7B4DDF-A1DC-CF06-8764-4C31DDA3CB8B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SlUCiniji</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idkasike" id="7786AE06-3E47-41BB-7026-E8D19B14A2F3">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:35:59 UTC</createdTime>
+<generatorID>5978C398-7F14-23C6-83BB-56C42DDAE85B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="18E200F1-93BA-61BC-6AF4-F1AF2F6F2315" value="true"/>
+</engineerTo>
+<referedAttribute>15BAD837-0AD5-D0E7-006B-4A84B47251B6</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>3</beginValue>
+<endValue>50</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+</Entity>

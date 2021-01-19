@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="188E245A-B69A-3CF3-DFE5-AA5DB46E8D14" name="Osnivac">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>D49A1255-7EB1-6093-7882-F455F3B045D6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO OSNIVAC (JMBGOSNIVACA,IMEOSNIVACA,PREZIMEOSNIVACA) VALUES (&apos;3012997545236&apos;, &apos;Petar&apos;, &apos;Mitrovic&apos;);&lt;br/&gt;INSERT INTO OSNIVAC (JMBGOSNIVACA,IMEOSNIVACA,PREZIMEOSNIVACA) VALUES (&apos;1202996748475&apos;, &apos;Gojko&apos;, &apos;Lazic&apos;);&lt;br/&gt;INSERT INTO OSNIVAC (JMBGOSNIVACA,IMEOSNIVACA,PREZIMEOSNIVACA,DATUMRODJENJAOSNIVACA) VALUES (&apos;0506997424681&apos;, &apos;Mitar&apos;, &apos;Petrovic&apos;, &apos;05-JUN-74&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jmbgosnivaca" id="D8DEA909-3065-796D-FB05-ED393E730440">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>EC7862F9-2262-8AD4-52AD-90E4AEDCA96A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imeosnivaca" id="AFDC7BB8-C65F-E99E-7561-8222444D4A21">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>922F392E-3112-06F5-9CF1-BAAEA234989B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezimeosnivaca" id="FB301338-E68B-4D70-EDAA-AA5F8CA5C92A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>E1C2A958-76C7-AC57-8BCC-12528A193082</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumrodjenjaosnivaca" id="0D8BC0C4-D9F5-1314-4CCE-8FCAAAC52723">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>1CB0E65A-F2BD-8E83-D85A-EA0219B0ED2A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>79504517-4103-D256-246D-2BE546785A1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="07A91058-2E21-6D8B-E031-8F85A24FAA1B" name="Osnivac_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>B0517D90-8996-B81C-D765-7FB8825364E6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8DEA909-3065-796D-FB05-ED393E730440"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

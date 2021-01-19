@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6C3CD2C-3DBA-87BD-68AF-B6515732BB2C" containerWithKeyObject="86939789-EFF9-D4A6-F1E7-249D0B67E591" localFKIndex="E3A1E925-C124-9F05-1D93-0258A5275292" name="Nalazi_Štand_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>7AC4CD2D-E579-28DB-9C76-EB0346447916</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Štand</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>693A81CE-DF56-4091-BB24-2D2F7B1969B0</referredTableID>
+<keyObject>2E8FB35F-0231-33B1-9961-16B377C4D568</keyObject>
+<referredKeyID>2E8FB35F-0231-33B1-9961-16B377C4D568</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Lanac_štandova_idlanca,idstanda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

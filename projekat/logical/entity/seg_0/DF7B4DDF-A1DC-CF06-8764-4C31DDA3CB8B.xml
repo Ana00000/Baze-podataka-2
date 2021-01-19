@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF7B4DDF-A1DC-CF06-8764-4C31DDA3CB8B" name="Sladoled">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:08:15 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<generateDiscrimColumn>true</generateDiscrimColumn>
+<discriminatorAttributeID>2314BE88-63CA-8504-BA3D-83701FCE5EA3</discriminatorAttributeID>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nazivsladoleda" id="68C11221-73BA-3CDC-FDFB-621CCEFFBCEB">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:08:29 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="gramazasladoleda" id="745EAE0C-8932-5ECA-9F1C-65598E7F07B4">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:08:39 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="ukussladoleda" id="8D78B118-E45E-D1BB-3C74-D9D5E9595C04">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:08:49 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cenasladoleda" id="6F0B33D4-8B42-8916-D2A6-F5A6BD0A18F9">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:08:56 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="tipsladoleda" id="2314BE88-63CA-8504-BA3D-83701FCE5EA3">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:09:08 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B496A24E-0F43-59BD-7FC6-6BBA2278ABAF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idmarke" id="A1EA789F-8295-AACE-40AF-AB5298B7F53A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 17:31:44 UTC</createdTime>
+<generatorID>11DC0D71-E0DC-9004-8746-E6791911ADE6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<referedAttribute>4F5FFA20-0B8E-73B4-DB22-A6343CDA3DE2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jmbgosnivaca" id="8BC5E23D-5203-8EB1-670E-492217F3618F">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-30 08:16:20 UTC</createdTime>
+<generatorID>11DC0D71-E0DC-9004-8746-E6791911ADE6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<referedAttribute>C5E52724-8622-3A20-673E-8C95551CE2FB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D576684-949E-C480-173D-42BA0C4AE3C4" name="Sladoled PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:08:38 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68C11221-73BA-3CDC-FDFB-621CCEFFBCEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

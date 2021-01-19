@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C83661E-E522-51C6-8544-40BE270C23A1" containerWithKeyObject="E36EFD1E-46A4-92B8-66C3-518FFFF6CEC4" localFKIndex="574ED8E9-6139-01B8-AA70-C2DF480AE698" name="Stavka_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>E4A144BF-6FA5-CAF7-4C68-1C6D69CE8BEE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Sladoled</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D9917E5B-892A-ACBC-C8EB-428F83F19E16</referredTableID>
+<keyObject>FEAD65A2-F713-F1ED-483E-A844742629DF</keyObject>
+<referredKeyID>FEAD65A2-F713-F1ED-483E-A844742629DF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nazivsladoleda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

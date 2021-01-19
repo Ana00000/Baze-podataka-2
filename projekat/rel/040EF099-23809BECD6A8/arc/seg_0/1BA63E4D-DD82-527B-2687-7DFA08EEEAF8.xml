@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="1BA63E4D-DD82-527B-2687-7DFA08EEEAF8" name="FKArc_3">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<mandatory>true</mandatory>
+<reverseArc>true</reverseArc>
+<table>C88D4772-6FB7-BB78-C8DC-94CBF4226593</table>
+<discriminatorColumn>2380136E-BB4C-7DA0-C556-A9E5FC2D2B43</discriminatorColumn>
+<fkeys>
+<fkeyID>1080C5BF-9A68-74F0-B57B-8FEB6DA67AB5</fkeyID>
+<fkeyID>08A5BB90-AED4-04F4-C0D0-8874016E4C64</fkeyID>
+</fkeys>
+</FKArc>

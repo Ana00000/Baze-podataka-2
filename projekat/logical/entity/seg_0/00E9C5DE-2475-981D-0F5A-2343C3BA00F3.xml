@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00E9C5DE-2475-981D-0F5A-2343C3BA00F3" name="SladoledNaStapicu">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:09:56 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="18E200F1-93BA-61BC-6AF4-F1AF2F6F2315" value="true"/>
+<item key="9410C449-7FCF-AC27-BD71-9B10262318C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>DF7B4DDF-A1DC-CF06-8764-4C31DDA3CB8B</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>SlNaStapicu</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="obliksladoleda" id="AA4FC8AA-32FD-B813-3F10-D717926C56D4">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:10:06 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="18E200F1-93BA-61BC-6AF4-F1AF2F6F2315" value="true"/>
+<item key="9410C449-7FCF-AC27-BD71-9B10262318C1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2DC912E-211A-3E98-558B-6DB008713FF8" name="Nalazi">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>3AE32963-392C-999A-8A9A-740D93B40646</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prodavac_jmbgzaposlenog" id="30F2B57E-4BE7-B646-C9C2-7881E3033EE7">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>5472375D-9219-84C4-4021-336CAF1032D6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C17FF445-4891-6323-A776-1F2C6A265102" referredColumn="E9161D8D-B966-5432-B9D6-6689243BBBC1"/>
+</associations>
+</Column>
+<Column name="Štand_Lanac_štandova_idlanca" id="EA2E4D99-FBC8-0F09-4798-94FD99A67987">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>D8E7D3D4-8571-0017-C660-B9091B085DB2</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBCA0095-9694-470F-C4BD-1E069C3119F6" referredColumn="13283347-3B34-1A99-4A47-95B13456334D"/>
+</associations>
+</Column>
+<Column name="Štand_idstanda" id="8C59EEED-8960-AC61-12EF-8748ABA17D62">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>DBCC2BCB-B6A5-8E15-F29D-9EEACD8B7C0F</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBCA0095-9694-470F-C4BD-1E069C3119F6" referredColumn="7E232925-1064-CAD5-E4D4-4839D136BA01"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CE8C70F5-BD3E-F735-CC73-E46F40435C53" name="Nalazi_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>3E7CFD70-DC98-4A0E-BF83-34891EA44F54</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA2E4D99-FBC8-0F09-4798-94FD99A67987"/>
+<colUsage columnID="8C59EEED-8960-AC61-12EF-8748ABA17D62"/>
+<colUsage columnID="30F2B57E-4BE7-B646-C9C2-7881E3033EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FE90BA5-132A-27AC-4226-0AD9B992DE98" name="Nalazi__IDX">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AB357E70-1246-5641-9FCC-1184589BDB25</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="30F2B57E-4BE7-B646-C9C2-7881E3033EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3FDCC6A-47E8-AD02-F12C-D108BB848935" name="Nalazi_Prodavac_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>AB357E70-1246-5641-9FCC-1184589BDB25</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30F2B57E-4BE7-B646-C9C2-7881E3033EE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8786FC8-8912-2E90-E432-4CDA5DFF6851" name="Nalazi_Štand_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>7AC4CD2D-E579-28DB-9C76-EB0346447916</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA2E4D99-FBC8-0F09-4798-94FD99A67987"/>
+<colUsage columnID="8C59EEED-8960-AC61-12EF-8748ABA17D62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

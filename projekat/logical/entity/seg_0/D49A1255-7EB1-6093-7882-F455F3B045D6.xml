@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D49A1255-7EB1-6093-7882-F455F3B045D6" name="Osnivac">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 20:52:22 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="jmbgosnivaca" id="EC7862F9-2262-8AD4-52AD-90E4AEDCA96A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 20:52:27 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="imeosnivaca" id="922F392E-3112-06F5-9CF1-BAAEA234989B">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 20:52:36 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezimeosnivaca" id="E1C2A958-76C7-AC57-8BCC-12528A193082">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 20:52:45 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datumrodjenjaosnivaca" id="1CB0E65A-F2BD-8E83-D85A-EA0219B0ED2A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 20:52:53 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>79504517-4103-D256-246D-2BE546785A1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B0517D90-8996-B81C-D765-7FB8825364E6" name="Osnivac PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:37:57 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC7862F9-2262-8AD4-52AD-90E4AEDCA96A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

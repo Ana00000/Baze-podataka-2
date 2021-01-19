@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D9917E5B-892A-ACBC-C8EB-428F83F19E16" name="Sladoled">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>DF7B4DDF-A1DC-CF06-8764-4C31DDA3CB8B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO SLADOLED (NAZIVSLADOLEDA,GRAMAZASLADOLEDA,UKUSSLADOLEDA,CENASLADOLEDA,TIPSLADOLEDA,MARKASL_IDMARKE,MARKASL_OSNIVAC_JMBGOSNIVACA)&lt;br/&gt;VALUES (&apos;Plazma sladoled&apos;,100,&apos;plazma&apos;,150,&apos;SlUKornetu&apos;, &apos;marka1&apos;, &apos;3012997545236&apos;);&lt;br/&gt;INSERT INTO SLADOLED (NAZIVSLADOLEDA,GRAMAZASLADOLEDA,UKUSSLADOLEDA,CENASLADOLEDA,TIPSLADOLEDA,MARKASL_IDMARKE,MARKASL_OSNIVAC_JMBGOSNIVACA)&lt;br/&gt;VALUES (&apos;Mars sladoled&apos;,80,&apos;cokolada-karamela&apos;,150,&apos;SlUKutiji&apos;, &apos;marka2&apos;, &apos;1202996748475&apos;);&lt;br/&gt;INSERT INTO SLADOLED (NAZIVSLADOLEDA,GRAMAZASLADOLEDA,UKUSSLADOLEDA,CENASLADOLEDA,TIPSLADOLEDA,MARKASL_IDMARKE,MARKASL_OSNIVAC_JMBGOSNIVACA)&lt;br/&gt;VALUES (&apos;Rum sladoled&apos;,120,&apos;rum-cokolada&apos;,200,&apos;SlUKutiji&apos;, &apos;marka2&apos;, &apos;1202996748475&apos;);&lt;br/&gt;INSERT INTO SLADOLED (NAZIVSLADOLEDA,GRAMAZASLADOLEDA,UKUSSLADOLEDA,CENASLADOLEDA,TIPSLADOLEDA,MARKASL_IDMARKE,MARKASL_OSNIVAC_JMBGOSNIVACA)&lt;br/&gt;VALUES (&apos;Vanila sladoled&apos;,100,&apos;vanila&apos;,100,&apos;SlUKornetu&apos;, &apos;marka1&apos;, &apos;3012997545236&apos;);&lt;br/&gt;INSERT INTO SLADOLED (NAZIVSLADOLEDA,GRAMAZASLADOLEDA,UKUSSLADOLEDA,CENASLADOLEDA,TIPSLADOLEDA,MARKASL_IDMARKE,MARKASL_OSNIVAC_JMBGOSNIVACA)&lt;br/&gt;VALUES (&apos;Rafaelo sladoled&apos;,110,&apos;vanila&apos;,100,&apos;SlUCiniji&apos;, &apos;marka1&apos;, &apos;3012997545236&apos;);&lt;br/&gt;INSERT INTO SLADOLED (NAZIVSLADOLEDA,GRAMAZASLADOLEDA,UKUSSLADOLEDA,CENASLADOLEDA,TIPSLADOLEDA,MARKASL_IDMARKE,MARKASL_OSNIVAC_JMBGOSNIVACA)&lt;br/&gt;VALUES (&apos;Kinder sladoled&apos;,100,&apos;plazma&apos;,150,&apos;SlNaStapicu&apos;, &apos;marka1&apos;, &apos;3012997545236&apos;);&lt;br/&gt;&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazivsladoleda" id="4F826A06-4F28-4FC9-1FB0-B0F3D8473FBB">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>68C11221-73BA-3CDC-FDFB-621CCEFFBCEB</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gramazasladoleda" id="20503DEB-460C-211A-340C-CB13B0F873C6">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>745EAE0C-8932-5ECA-9F1C-65598E7F07B4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="ukussladoleda" id="34930653-3388-C8F2-9DCF-77C05C67F5E9">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>8D78B118-E45E-D1BB-3C74-D9D5E9595C04</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenasladoleda" id="1F9C60AA-6DD5-E352-F600-B1B094126860">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>6F0B33D4-8B42-8916-D2A6-F5A6BD0A18F9</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="tipsladoleda" id="C0AAD82B-ACC0-AF18-243B-73264950DA9B">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>2314BE88-63CA-8504-BA3D-83701FCE5EA3</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<constraintName>CH_INH_Sladoled</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<domain>B496A24E-0F43-59BD-7FC6-6BBA2278ABAF</domain>
+<listOfValues>
+<valueDef value="SlNaStapicu" description="entity SladoledNaStapicu"/>
+<valueDef value="SlUCiniji" description="entity SladoledUCiniji"/>
+<valueDef value="SlUKornetu" description="entity SladoledUKornetu"/>
+<valueDef value="SlUKutiji" description="entity SladoledUKutiji"/>
+<valueDef value="Sladoled" description="entity Sladoled"/>
+</listOfValues>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="MarkaSl_idmarke" id="B93FF415-F058-922D-BF13-D5EB2B10F9C6">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>A1EA789F-8295-AACE-40AF-AB5298B7F53A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B3C4D8F-7AAE-FE60-5FAE-3D14A6806B36" referredColumn="E242AE68-C34F-3967-18F9-2A11B6077E2C"/>
+</associations>
+</Column>
+<Column name="MarkaSl_Osnivac_jmbgosnivaca" id="FEE91071-936B-6D4A-AC7A-9B8F267A81A6">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>DE6C2099-0599-407F-0664-528F40432E77</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B3C4D8F-7AAE-FE60-5FAE-3D14A6806B36" referredColumn="76AF4B2D-EA93-096B-61E2-E9EBD0EDC4E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FEAD65A2-F713-F1ED-483E-A844742629DF" name="Sladoled_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>6D576684-949E-C480-173D-42BA0C4AE3C4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F826A06-4F28-4FC9-1FB0-B0F3D8473FBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1BB62A7D-4D00-C540-063C-A4BB9BEBC212" name="Sladoled_MarkaSl_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>11DC0D71-E0DC-9004-8746-E6791911ADE6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B93FF415-F058-922D-BF13-D5EB2B10F9C6"/>
+<colUsage columnID="FEE91071-936B-6D4A-AC7A-9B8F267A81A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

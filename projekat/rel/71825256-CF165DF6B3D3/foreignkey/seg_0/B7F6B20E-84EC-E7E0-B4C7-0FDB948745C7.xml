@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7F6B20E-84EC-E7E0-B4C7-0FDB948745C7" containerWithKeyObject="0AFDB83E-8A3A-88F6-CA8D-5EDFDE0EA025" localFKIndex="BFB9A5F2-E169-CC8C-4613-E471F525133F" name="Pripada_Nalazi_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>C5ACB51A-7ABB-169A-AC6A-BD207A1DDE0E</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Nalazi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86939789-EFF9-D4A6-F1E7-249D0B67E591</referredTableID>
+<keyObject>E8E9C76B-CCA4-F9D8-F7C7-E7F9E3EC665B</keyObject>
+<referredKeyID>E8E9C76B-CCA4-F9D8-F7C7-E7F9E3EC665B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Štand_Lanac_štandova_idlanca,Štand_idstanda,Prodavač_jmbgzaposlenog</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

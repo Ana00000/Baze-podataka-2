@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9063E61B-9D8D-42A9-72E9-A2ED1F590738" containerWithKeyObject="A278F941-8AD3-8819-1EE8-DE246B9AA3C0" localFKIndex="D206CF50-4076-FDB8-2DE5-BA160E05BD19" name="Sladoled_Marka_sl_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>11DC0D71-E0DC-9004-8746-E6791911ADE6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Marka_sl</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A5B3597C-B38D-F5C7-BF80-947F568E3E81</referredTableID>
+<keyObject>F8A9016E-0300-3DC9-89E6-F44F74965004</keyObject>
+<referredKeyID>F8A9016E-0300-3DC9-89E6-F44F74965004</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idmarke</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

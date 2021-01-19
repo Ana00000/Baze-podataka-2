@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D0BF4C5D-3ED5-EDFF-74BE-6E721574CDA2" name="Racun">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>2D0598A0-B5C5-66E1-836B-07EDC6E7AEFE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idracuna" id="EFA32D1C-CD0B-D7B6-9A8F-1A3771E7F5B2">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>1D37968B-0E21-8D29-E903-97354E46C892</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenaracuna" id="6F57DAB0-F6AF-7AC2-10FE-DCC7338AE9EA">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>E08B67ED-6B19-C518-FA2B-E47CA4B2CDA4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="brstavki" id="86D24BE1-B044-898C-EB89-61F1D54BB3A6">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>C6AECC68-66EA-33C4-C838-5AA112F437E1</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="vremeizdavanjaracuna" id="B9E8DCFD-20BB-A4A0-F639-C92C935368BB">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>451A8280-3C49-E2E3-23ED-7106812DD851</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<domain>005E256A-5318-A6BC-CDF9-DA4B6AF6310D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumizdavanjaracuna" id="0A562A0C-5AF9-9E91-EA2E-C5BD3C936701">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>5F383D62-5DBA-DFB6-0DA7-A33F40FF754D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>79504517-4103-D256-246D-2BE546785A1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipracuna" id="E0309666-7068-6FFB-3955-AE6393D46AAD">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>7A91025D-294F-AA14-7BAB-7F6964EDA088</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>39EAF2F8-BBCD-4FC1-2B0E-5945A639E09B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodavac_jmbgzaposlenog" id="9AD8CCF5-B19E-E441-90A8-041FD903DC7C">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>75FC908E-8F7C-55B4-EA6D-F06438A8628C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7ECAE304-6B76-6B95-4F84-EE3DA94F57A8" referredColumn="E9161D8D-B966-5432-B9D6-6689243BBBC1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="293EDC0F-EAEC-AF49-4432-90A91B97F0CC" name="Racun_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>37E13585-EA3D-A5AB-4566-24E4CF4D86A2</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFA32D1C-CD0B-D7B6-9A8F-1A3771E7F5B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="402B70B3-5A02-C2E3-08DE-26BE2A3A6FB2" name="Racun_Prodavac_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>9BEFEDC5-6B84-3C38-FF48-2C11457D2A95</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9AD8CCF5-B19E-E441-90A8-041FD903DC7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

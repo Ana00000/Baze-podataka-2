@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05DBF6A0-38C4-F0ED-0C0E-860B95792B74" name="Nabavljac">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>FECAE599-26D9-8633-C14D-A10682BF8426</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO NABAVLJAC (JMBGZAPOSLENOG) VALUES (&apos;2405995653780&apos;);&lt;br/&gt;INSERT INTO NABAVLJAC (JMBGZAPOSLENOG) VALUES (&apos;1408998157300&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jmbgzaposlenog" id="CBE7F993-7C53-7EBC-33F8-FD52CAF0910F">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>28E0E1DF-47A3-51F7-4E8F-19B64A0CBBB2</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08A5BB90-AED4-04F4-C0D0-8874016E4C64" referredColumn="2DA1C35A-05AA-A80F-F874-27C8A4FBFEEA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F636639A-824C-286F-B3FB-A236B6207AEC" name="Nabavljac_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>DE9657EB-9122-281B-D469-400A74EE3E80</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBE7F993-7C53-7EBC-33F8-FD52CAF0910F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCBF2C02-2BEB-A922-3D59-EF4FA0238140" name="Nabavljac_Zaposlenik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>49359B71-AFC2-C3BC-5B16-F65B9EDB5A28</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBE7F993-7C53-7EBC-33F8-FD52CAF0910F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

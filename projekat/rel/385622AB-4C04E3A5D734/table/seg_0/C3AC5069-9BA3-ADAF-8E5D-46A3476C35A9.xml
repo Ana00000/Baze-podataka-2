@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3AC5069-9BA3-ADAF-8E5D-46A3476C35A9" name="Pl_kašika">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>F60AF336-5923-60CF-B99F-A31E734E3121</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idkasike" id="8115A6E3-C0EC-936D-CC23-19B11357F924">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>15BAD837-0AD5-D0E7-006B-4A84B47251B6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2918FED7-DF56-F3A0-E441-757E85478897" referredColumn="E7B355DA-7B59-979B-30D0-413069632EE8"/>
+</associations>
+</Column>
+<Column name="bojakasike" id="E4F84FE5-6D34-E695-5C49-D921B852F552">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>5DABD2C4-86F0-E1CE-ADC6-8E4C663B9BD4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7403544-8FBB-6358-44D1-82257321F80C" name="Pl_kašika_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>4F358556-10BC-5425-E799-C09B11FA3D24</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8115A6E3-C0EC-936D-CC23-19B11357F924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D29FD014-FF7F-1E0A-A02A-46BA5FB925E5" name="Pl_kašika_Kašika_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>B0B24ED2-A625-F496-E33D-F9D27FAAB105</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8115A6E3-C0EC-936D-CC23-19B11357F924"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BA51134-C0F9-B6B4-DAE0-D884EE7A5A70" name="Sl_na_štapicu">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>00E9C5DE-2475-981D-0F5A-2343C3BA00F3</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazivsladoleda" id="1ACC71B3-4ACC-61FB-26A1-1D8490A98CF1">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>68C11221-73BA-3CDC-FDFB-621CCEFFBCEB</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AAAC324-CE83-3D00-A0B7-8CABD29EA4C3" referredColumn="4E2869C1-1A36-282C-4BF6-C77D3CD92EE0"/>
+</associations>
+</Column>
+<Column name="obliksladoleda" id="3639FD17-D015-1C71-5CA3-D6F31D049E22">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>AA4FC8AA-32FD-B813-3F10-D717926C56D4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CFBE1F1F-6C0D-8E77-5A8B-F23A2FC421B9" name="Sl_na_štapicu_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>6D576684-949E-C480-173D-42BA0C4AE3C4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ACC71B3-4ACC-61FB-26A1-1D8490A98CF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12AB2B4E-124A-78FF-5520-D0497021119C" name="Sl_na_štapicu_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>C354B05E-73F8-0E58-E7DE-64EF7ECB8DEE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ACC71B3-4ACC-61FB-26A1-1D8490A98CF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

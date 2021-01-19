@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A86D6DB9-9FDE-5CE1-4807-096C2C770CF8" name="Kasika">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>2C38F89E-B09A-3473-18E7-970BA9EADCCD</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO KASIKA (IDKASIKE,JEDNOKRATNOSTKASIKE,TIPKASIKE) VALUES (&apos;kasika1&apos;, &apos;Y&apos;,&apos;PlKasika&apos;);&lt;br/&gt;INSERT INTO KASIKA (IDKASIKE,JEDNOKRATNOSTKASIKE,TIPKASIKE) VALUES (&apos;kasika2&apos;, &apos;Y&apos;,&apos;PlKasika&apos;);&lt;br/&gt;INSERT INTO KASIKA (IDKASIKE,JEDNOKRATNOSTKASIKE,TIPKASIKE) VALUES (&apos;kasika3&apos;, &apos;N&apos;,&apos;MetKasika&apos;);&lt;br/&gt;INSERT INTO KASIKA (IDKASIKE,JEDNOKRATNOSTKASIKE,TIPKASIKE) VALUES (&apos;kasika4&apos;, &apos;N&apos;,&apos;MetKasika&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idkasike" id="7A824ED2-EF07-7033-FBDA-3E44B8B283CE">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>15BAD837-0AD5-D0E7-006B-4A84B47251B6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jednokratnostkasike" id="72FB3ADD-00A6-FE87-CC0D-03D94AEE340D">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>ED4FA736-C197-9C78-24A5-3490E26CA60D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<domain>B0684D5B-BA0F-DA69-8C8A-46B498B2AA11</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipkasike" id="68192896-3993-00F2-9CDF-F365D040A4CB">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>9CD10D5C-E36C-9D97-DC0B-C2E99659C69A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<constraintName>CH_INH_Kasika</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<domain>1F596567-006C-64F2-B4E6-46A71A7DB23A</domain>
+<listOfValues>
+<valueDef value="MetKasika" description="entity MetalnaKasika"/>
+<valueDef value="PlKasika" description="entity PlasticnaKasika"/>
+</listOfValues>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BC10748-6B0B-1DDD-161D-9B0FAD54D591" name="Kasika_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>4F358556-10BC-5425-E799-C09B11FA3D24</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A824ED2-EF07-7033-FBDA-3E44B8B283CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

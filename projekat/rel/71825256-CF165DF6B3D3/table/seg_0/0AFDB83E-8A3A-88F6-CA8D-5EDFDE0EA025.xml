@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0AFDB83E-8A3A-88F6-CA8D-5EDFDE0EA025" name="Pripada">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nalazi_idlanca" id="249D14B4-0BF7-632A-6AA1-D455E0D0180A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7F6B20E-84EC-E7E0-B4C7-0FDB948745C7" referredColumn="F60F3909-B78B-C9E2-219A-9D9689C3C35C"/>
+</associations>
+</Column>
+<Column name="Nalazi_idstanda" id="36EC3AFF-8975-A0B8-D2D9-FB9F3F1BC2BF">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7F6B20E-84EC-E7E0-B4C7-0FDB948745C7" referredColumn="EAE83243-1730-7DEA-1807-1582CBE22148"/>
+</associations>
+</Column>
+<Column name="Nalazi_jmbgzaposlenog" id="3A55AED0-AAC3-B3E9-6FA6-35789E9FCDE4">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7F6B20E-84EC-E7E0-B4C7-0FDB948745C7" referredColumn="11AC8714-700E-DE89-177F-68241B191940"/>
+</associations>
+</Column>
+<Column name="Sladoled_nazivsladoleda" id="B468C441-3277-8018-711A-BF51FD062699">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12979682-344D-B2E6-AD0B-7A9AE89A86B1" referredColumn="CF8D4888-09A9-01BF-C49A-012DD49720DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0001009-9EBE-BC20-2D1B-610195FAE5CA" name="Pripada_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249D14B4-0BF7-632A-6AA1-D455E0D0180A"/>
+<colUsage columnID="36EC3AFF-8975-A0B8-D2D9-FB9F3F1BC2BF"/>
+<colUsage columnID="3A55AED0-AAC3-B3E9-6FA6-35789E9FCDE4"/>
+<colUsage columnID="B468C441-3277-8018-711A-BF51FD062699"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFB9A5F2-E169-CC8C-4613-E471F525133F" name="Pripada_Nalazi_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>C5ACB51A-7ABB-169A-AC6A-BD207A1DDE0E</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249D14B4-0BF7-632A-6AA1-D455E0D0180A"/>
+<colUsage columnID="36EC3AFF-8975-A0B8-D2D9-FB9F3F1BC2BF"/>
+<colUsage columnID="3A55AED0-AAC3-B3E9-6FA6-35789E9FCDE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4926FE61-0634-3648-546C-3160D753A2E0" name="Pripada_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>C5ACB51A-7ABB-169A-AC6A-BD207A1DDE0E</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B468C441-3277-8018-711A-BF51FD062699"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

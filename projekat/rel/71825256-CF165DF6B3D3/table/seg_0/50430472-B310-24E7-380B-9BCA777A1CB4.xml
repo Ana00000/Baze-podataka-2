@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50430472-B310-24E7-380B-9BCA777A1CB4" name="Prodavač">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>F9A319A5-48FE-D463-3F21-D5EE87E6AF29</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jmbgzaposlenog" id="BA9F2F6F-D777-6633-5C62-449A6DF28D39">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>28E0E1DF-47A3-51F7-4E8F-19B64A0CBBB2</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D869ECE-C4B1-7B2E-8716-461E32F79BFA" referredColumn="535C1669-C5E1-6332-3D63-DD7FA1FD8488"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB7C8471-28CD-C290-6F6E-CC0C7058C557" name="Prodavač_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>DE9657EB-9122-281B-D469-400A74EE3E80</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA9F2F6F-D777-6633-5C62-449A6DF28D39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34894F4C-33D1-C8DE-64E7-3D857E67C473" name="Prodavač_Zaposlenik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>074FC8E4-2D39-F340-B954-48CF7E46B8A7</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA9F2F6F-D777-6633-5C62-449A6DF28D39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

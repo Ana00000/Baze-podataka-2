@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Oznacava" directorySegmentName="seg_0" id="11DC0D71-E0DC-9004-8746-E6791911ADE6">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:21:50 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<sourcePk>6D576684-949E-C480-173D-42BA0C4AE3C4</sourcePk>
+<targetPk>B789F813-E29F-CBE1-D59D-0B8D94001BBA</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DF7B4DDF-A1DC-CF06-8764-4C31DDA3CB8B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0A289291-A458-521E-01A1-B90B4FFBDCEE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

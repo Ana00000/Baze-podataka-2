@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFCD14C6-B5F7-E556-713B-90D1C9E4EC85" name="SlUKutiji">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>9FFFCC5F-574F-AB9E-29F9-14907EBBBF1B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO SLUKUTIJI (NAZIVSLADOLEDA,PLKASIKA_IDKASIKE) VALUES (&apos;Mars sladoled&apos;, &apos;kasika1&apos;);&lt;br/&gt;INSERT INTO SLUKUTIJI (NAZIVSLADOLEDA,PLKASIKA_IDKASIKE) VALUES (&apos;Rum sladoled&apos;, &apos;kasika2&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazivsladoleda" id="087A030B-83C2-9D8F-CDB4-9880EE8751C2">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>68C11221-73BA-3CDC-FDFB-621CCEFFBCEB</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="44494C92-2051-131A-7A51-F77F70EEC1A3" referredColumn="4F826A06-4F28-4FC9-1FB0-B0F3D8473FBB"/>
+</associations>
+</Column>
+<Column name="PlKasika_idkasike" id="FB0BFC9A-52C3-DCB9-392C-6E7F593885DE">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>BBC8B8EA-7B5B-D793-2459-42C1157CA1E6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="129E3B6F-B4C4-B3CC-F6D3-2BBFB0ED7EAE" referredColumn="0F3E65E3-96E9-F8C2-8615-66EA30D65812"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3EE92A0-BA13-64B1-EFAA-C0341CF2EBFC" name="SlUKutiji_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>6D576684-949E-C480-173D-42BA0C4AE3C4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="087A030B-83C2-9D8F-CDB4-9880EE8751C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63C361F2-59DC-8B52-0B85-BDAC20401114" name="SlUKutiji__IDX">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BB577368-3B5B-435D-EAFD-FE6004E89DD1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FB0BFC9A-52C3-DCB9-392C-6E7F593885DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C4957B2-7BD5-206C-8D23-9A639BABA20E" name="SlUKutiji_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>2F536204-AE89-310A-727A-C6B41F1F87AC</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="087A030B-83C2-9D8F-CDB4-9880EE8751C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2520DE3-E1B7-A24D-69CA-59395A3FE331" name="SlUKutiji_PlKasika_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>BB577368-3B5B-435D-EAFD-FE6004E89DD1</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB0BFC9A-52C3-DCB9-392C-6E7F593885DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

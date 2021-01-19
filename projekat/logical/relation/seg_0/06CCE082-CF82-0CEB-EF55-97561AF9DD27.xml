@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nabavlja" directorySegmentName="seg_0" id="06CCE082-CF82-0CEB-EF55-97561AF9DD27">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 21:24:18 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="D2EB8B04-4B17-1B4F-432B-ADD0354C940B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FECAE599-26D9-8633-C14D-A10682BF8426</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF7B4DDF-A1DC-CF06-8764-4C31DDA3CB8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27D9B5E3-D8E4-4D5E-61D4-69C708092558" name="Radna_uniforma">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>13B55F12-EE69-4BB5-69E9-0D56AF63C094</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idkartice" id="67CE068B-141F-5321-4D8A-4B4249B1A62A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>DF1D0F3F-FC63-C741-2A11-85347ABBB35B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brcipela" id="11C9FEED-88F9-AFC5-BD78-4CB869CBB374">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>ADF83321-5BCB-CD8C-C69C-7A5DDB759E36</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="velicinamajice" id="FD1375AC-E4E6-B825-5ADD-2060CE468BF4">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>7C8EB663-5967-359F-A827-0D7A5C824CBE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="velicinapantalona" id="DE0FFF61-B870-DB88-7EDC-A857DE462C4A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>99F367F6-B498-E51B-C55E-6C9D4D1BB8F8</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="velicinakacketa" id="1CF39740-4EE5-EF03-92A5-0326E329DC5A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>8B023976-7F59-D9D0-6489-6562169B9A1C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposlenik_jmbgzaposlenog" id="7F5E3599-59EA-FCEA-2738-B41FCC301F92">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>10073E5D-76E3-7157-ED25-8438E0B91235</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D226B09E-8431-2130-5417-F164CEDB7C08" referredColumn="8B444A56-21DD-D275-36CC-DCD9AE156679"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F71EFCF-7A43-9AAF-19DA-A0918FA1351F" name="Radna_uniforma_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>94BAC4C2-7CA6-76D3-5E2A-B53A90D0A04D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67CE068B-141F-5321-4D8A-4B4249B1A62A"/>
+<colUsage columnID="7F5E3599-59EA-FCEA-2738-B41FCC301F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8900743-5D49-A324-88C4-C8CE9B942BFE" name="Radna_uniforma__IDX">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>93CD92B5-9896-7872-21BA-43AFB19FF053</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7F5E3599-59EA-FCEA-2738-B41FCC301F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E54E08C3-7F29-289A-5D65-DA1D52E6B212" name="Radna_uniforma_Zaposlenik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>93CD92B5-9896-7872-21BA-43AFB19FF053</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F5E3599-59EA-FCEA-2738-B41FCC301F92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

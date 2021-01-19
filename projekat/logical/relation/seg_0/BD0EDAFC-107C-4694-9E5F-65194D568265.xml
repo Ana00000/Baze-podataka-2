@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ProdavacNalazi" directorySegmentName="seg_0" id="BD0EDAFC-107C-4694-9E5F-65194D568265">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 17:44:55 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<sourcePk>DE9657EB-9122-281B-D469-400A74EE3E80</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F9A319A5-48FE-D463-3F21-D5EE87E6AF29</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7FD94B73-A3E3-7F93-13EA-166D2F45E1F1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

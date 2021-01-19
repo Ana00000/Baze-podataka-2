@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B712555-223D-4CC8-7606-3BB8BA97B14A" name="LanacStandova">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>DAADCE49-89F7-7999-D443-21807DA0D5E2</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO LANACSTANDOVA (IDLANCA,NAZIVPLAZE,BRSTANDOVA) VALUES (&apos;lanac1&apos;, &apos;Ada Bojana&apos;, 1);&lt;br/&gt;INSERT INTO LANACSTANDOVA (IDLANCA,NAZIVPLAZE,BRSTANDOVA) VALUES (&apos;lanac2&apos;, &apos;Plavi horizonti&apos;, 3);&lt;br/&gt;INSERT INTO LANACSTANDOVA (IDLANCA,NAZIVPLAZE,BRSTANDOVA) VALUES (&apos;lanac3&apos;, &apos;Crna plaza&apos;, 2);&lt;br/&gt;&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idlanca" id="6B0CC91A-F802-9FA1-73A2-6BF02F726C86">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>AF4F4221-B9AD-3534-D5AF-1AFD95EECD52</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazivplaze" id="F163CEA9-97B8-8CE6-21FC-0E460AFF17BB">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>F6876B21-713B-647F-6838-0CDE52C6F313</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brstandova" id="08FFCD68-0275-96DA-B2C5-1682BF0A3D44">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>C031EC57-3699-E71C-D33E-8D5941C01F00</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1578B2BD-A04C-F43A-4DB6-04590E66949A" name="LanacStandova_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>906C594B-D4F7-4343-B5F0-AE723323FAC8</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B0CC91A-F802-9FA1-73A2-6BF02F726C86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

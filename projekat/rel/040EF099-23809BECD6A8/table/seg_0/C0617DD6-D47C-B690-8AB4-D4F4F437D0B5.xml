@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C0617DD6-D47C-B690-8AB4-D4F4F437D0B5" name="MetKasika">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>A70A096C-123E-CF21-30EE-2E6DDEC4E319</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO METKASIKA (IDKASIKE) VALUES (&apos;kasika3&apos;);&lt;br/&gt;INSERT INTO METKASIKA (IDKASIKE) VALUES (&apos;kasika4&apos;);&lt;br/&gt;&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idkasike" id="554F3889-DC51-5C01-7C00-0DB720207AC0">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>15BAD837-0AD5-D0E7-006B-4A84B47251B6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4071938E-9607-A34C-C616-374AFD150631" referredColumn="7A824ED2-EF07-7033-FBDA-3E44B8B283CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1EEDE3B1-35AE-0EDF-9451-AC1220DF2A3E" name="MetKasika_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>4F358556-10BC-5425-E799-C09B11FA3D24</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="554F3889-DC51-5C01-7C00-0DB720207AC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="869E6790-96D2-90CC-8C08-4A8B81B34D63" name="MetKasika_Kasika_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>80178486-E2EC-8F86-2E13-7E4C8CE679CE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="554F3889-DC51-5C01-7C00-0DB720207AC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

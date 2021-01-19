@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8DCF808D-F1D8-703C-501A-1F3879566CD6" name="SlNaStapicu">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>00E9C5DE-2475-981D-0F5A-2343C3BA00F3</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO SLNASTAPICU (NAZIVSLADOLEDA,OBLIKSLADOLEDA) VALUES (&apos;Kinder sladoled&apos;,&apos;krug&apos;);</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazivsladoleda" id="CFA240E6-F75A-7AB3-04FD-67EB16645433">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>68C11221-73BA-3CDC-FDFB-621CCEFFBCEB</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3801E8F3-C4E4-C415-91F9-31B30251F187" referredColumn="4F826A06-4F28-4FC9-1FB0-B0F3D8473FBB"/>
+</associations>
+</Column>
+<Column name="obliksladoleda" id="29E978AE-24A7-2CD3-5DE2-D18DCFDA05F3">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>AA4FC8AA-32FD-B813-3F10-D717926C56D4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6343E729-D243-8559-9F87-6EB8316200A1" name="SlNaStapicu_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>6D576684-949E-C480-173D-42BA0C4AE3C4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFA240E6-F75A-7AB3-04FD-67EB16645433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6EFCB655-D71F-D9E2-3CC1-4A96C4CACDE2" name="SlNaStapicu_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>C354B05E-73F8-0E58-E7DE-64EF7ECB8DEE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFA240E6-F75A-7AB3-04FD-67EB16645433"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

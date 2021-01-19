@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="278A9AA5-9901-EAFD-A19E-3910D0C5D50E" name="PlKasika">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>F60AF336-5923-60CF-B99F-A31E734E3121</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO PLKASIKA (IDKASIKE,BOJAKASIKE) VALUES (&apos;kasika1&apos;,&apos;crna&apos;);&lt;br/&gt;INSERT INTO PLKASIKA (IDKASIKE,BOJAKASIKE) VALUES (&apos;kasika2&apos;,&apos;plava&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idkasike" id="0F3E65E3-96E9-F8C2-8615-66EA30D65812">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>15BAD837-0AD5-D0E7-006B-4A84B47251B6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5280B35-B854-6E46-F56F-A81D7CDCAE24" referredColumn="7A824ED2-EF07-7033-FBDA-3E44B8B283CE"/>
+</associations>
+</Column>
+<Column name="bojakasike" id="CA70C38B-587E-C469-D2D9-BCF5435DA7BA">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>5DABD2C4-86F0-E1CE-ADC6-8E4C663B9BD4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD9EF749-6265-94C3-D577-809FE711373D" name="PlKasika_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>4F358556-10BC-5425-E799-C09B11FA3D24</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3E65E3-96E9-F8C2-8615-66EA30D65812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8550FFE6-E211-0AD1-F8CE-5C5547A6E69A" name="PlKasika_Kasika_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>B0B24ED2-A625-F496-E33D-F9D27FAAB105</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F3E65E3-96E9-F8C2-8615-66EA30D65812"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

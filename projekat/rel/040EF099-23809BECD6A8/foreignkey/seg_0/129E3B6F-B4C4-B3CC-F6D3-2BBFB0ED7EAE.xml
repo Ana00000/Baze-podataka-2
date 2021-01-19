@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="129E3B6F-B4C4-B3CC-F6D3-2BBFB0ED7EAE" containerWithKeyObject="AFCD14C6-B5F7-E556-713B-90D1C9E4EC85" localFKIndex="A2520DE3-E1B7-A24D-69CA-59395A3FE331" name="SlUKutiji_PlKasika_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>BB577368-3B5B-435D-EAFD-FE6004E89DD1</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>PlKasika</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>278A9AA5-9901-EAFD-A19E-3910D0C5D50E</referredTableID>
+<keyObject>CD9EF749-6265-94C3-D577-809FE711373D</keyObject>
+<referredKeyID>CD9EF749-6265-94C3-D577-809FE711373D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idkasike</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E7666AB-74F0-A204-EB3E-663AF0173B42" name="SlUKornetu">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>A38E4BEC-387C-3991-CBC5-5B3B8DE774F9</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO SLUKORNETU (NAZIVSLADOLEDA,BOJAKORNETA) VALUES (&apos;Plazma sladoled&apos;,&apos;crni&apos;);&lt;br/&gt;INSERT INTO SLUKORNETU (NAZIVSLADOLEDA,BOJAKORNETA) VALUES (&apos;Vanila sladoled&apos;,&apos;braon&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazivsladoleda" id="36C594F4-8765-32A3-685D-B17FA009CF74">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>68C11221-73BA-3CDC-FDFB-621CCEFFBCEB</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40F372CD-E6E4-8ADC-A414-F7A8974E9B11" referredColumn="4F826A06-4F28-4FC9-1FB0-B0F3D8473FBB"/>
+</associations>
+</Column>
+<Column name="bojakorneta" id="8A30B864-B038-F087-6773-981752EC6167">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>811D7AFB-7F8F-5D88-F6A3-A9A2D41F482B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F60D6A88-1C56-2490-5451-FBC67740246C" name="SlUKornetu_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>6D576684-949E-C480-173D-42BA0C4AE3C4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36C594F4-8765-32A3-685D-B17FA009CF74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DA12AEA-B986-DA6A-751E-33F25BCE654C" name="SlUKornetu_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>5BEEE68C-7CD6-70F2-5CD3-ABE23F5AC2A0</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36C594F4-8765-32A3-685D-B17FA009CF74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

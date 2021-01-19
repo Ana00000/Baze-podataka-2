@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A1B0213-1DC5-AC56-912F-582BA9511984" name="Nabavlja">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nabavljač_jmbgzaposlenog" id="B9BC4793-C655-6AA8-6D1C-044649F0C54A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53052D16-850B-476A-2E78-D3487D96AD40" referredColumn="0403D735-439D-CB59-C668-10F3F6D555A1"/>
+</associations>
+</Column>
+<Column name="Sladoled_nazivsladoleda" id="1099871F-0CC6-1F0F-E720-9A5FD1222B85">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F8CCF86-7A92-672B-E539-2CD6AAC94B78" referredColumn="CF8D4888-09A9-01BF-C49A-012DD49720DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C29F491-1ED9-3F2C-030B-04B3A9F3CCF2" name="Nabavlja_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9BC4793-C655-6AA8-6D1C-044649F0C54A"/>
+<colUsage columnID="1099871F-0CC6-1F0F-E720-9A5FD1222B85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99B3D326-FCA0-E41F-F87B-8AE874E4D481" name="Nabavlja_Nabavljač_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>06CCE082-CF82-0CEB-EF55-97561AF9DD27</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9BC4793-C655-6AA8-6D1C-044649F0C54A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A00A4BE5-CDCD-1596-66A0-CC7A0B514AA7" name="Nabavlja_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>06CCE082-CF82-0CEB-EF55-97561AF9DD27</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1099871F-0CC6-1F0F-E720-9A5FD1222B85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

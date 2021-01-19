@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B0F7D5B5-88A2-8C47-150A-496B1F1110F9" containerWithKeyObject="95F679D3-B41E-609A-E0DF-85E3FDA0895B" localFKIndex="8CEB811A-F37E-08EB-825D-E8B6B3AF37AF" name="Nalazi_Stand_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>A49E1DB6-6623-36FC-85E0-0BC2A62FE60A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Stand</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5BCCAD3E-9BE8-7EE5-AEB4-9B7B60106DB1</referredTableID>
+<keyObject>8C70064F-3EA4-D777-D0F6-695729BD9DA0</keyObject>
+<referredKeyID>8C70064F-3EA4-D777-D0F6-695729BD9DA0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idstanda,LanacStandova_idlanca</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

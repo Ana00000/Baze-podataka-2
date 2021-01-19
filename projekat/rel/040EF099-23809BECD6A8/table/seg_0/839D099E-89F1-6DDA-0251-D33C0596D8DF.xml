@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="839D099E-89F1-6DDA-0251-D33C0596D8DF" name="Racun">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>2D0598A0-B5C5-66E1-836B-07EDC6E7AEFE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO RACUN (IDRACUNA,CENARACUNA,BRSTAVKI,VREMEIZDAVANJARACUNA,DATUMIZDAVANJARACUNA,TIPRACUNA,PRODAVAC_JMBGZAPOSLENOG)&lt;br/&gt;VALUES (&apos;racun1&apos;,150,1,&apos;07:12 AM&apos;,&apos;09-SEP-11&apos;,&apos;dinarskiracun&apos;,&apos;1111998823424&apos;);&lt;br/&gt;INSERT INTO RACUN (IDRACUNA,CENARACUNA,BRSTAVKI,VREMEIZDAVANJARACUNA,DATUMIZDAVANJARACUNA,TIPRACUNA,PRODAVAC_JMBGZAPOSLENOG)&lt;br/&gt;VALUES (&apos;racun2&apos;,250,2,&apos;03:21 PM&apos;,&apos;05-OCT-20&apos;,&apos;dinarskiracun&apos;,&apos;1111998823424&apos;);&lt;br/&gt;INSERT INTO RACUN (IDRACUNA,CENARACUNA,BRSTAVKI,VREMEIZDAVANJARACUNA,DATUMIZDAVANJARACUNA,TIPRACUNA,PRODAVAC_JMBGZAPOSLENOG)&lt;br/&gt;VALUES (&apos;racun3&apos;,300,2,&apos;08:45 AM&apos;,&apos;09-SEP-20&apos;, &apos;dinarskiracun&apos;,&apos;0308996840504&apos;);&lt;br/&gt;INSERT INTO RACUN (IDRACUNA,CENARACUNA,BRSTAVKI,VREMEIZDAVANJARACUNA,DATUMIZDAVANJARACUNA,TIPRACUNA,PRODAVAC_JMBGZAPOSLENOG)&lt;br/&gt;VALUES (&apos;racun4&apos;, 200, 1, &apos;09:01 PM&apos;,&apos;17-OCT-20&apos;, &apos;dinarskiracun&apos;,&apos;0308996840504&apos;);&lt;br/&gt;INSERT INTO RACUN (IDRACUNA,CENARACUNA,BRSTAVKI,VREMEIZDAVANJARACUNA,DATUMIZDAVANJARACUNA,TIPRACUNA,PRODAVAC_JMBGZAPOSLENOG)&lt;br/&gt;VALUES (&apos;racun5&apos;,100,1,&apos;05:31 PM&apos;,&apos;01-OCT-20&apos;,&apos;dinarskiracun&apos;,&apos;0308996840504&apos;);&lt;br/&gt;INSERT INTO RACUN (IDRACUNA,CENARACUNA,BRSTAVKI,VREMEIZDAVANJARACUNA,DATUMIZDAVANJARACUNA,TIPRACUNA,PRODAVAC_JMBGZAPOSLENOG)&lt;br/&gt;VALUES (&apos;racun6&apos;,300,1,&apos;09:10 AM&apos;,&apos;02-OCT-20&apos;,&apos;dinarskiracun&apos;,&apos;0404995375804&apos;);&lt;br/&gt;INSERT INTO RACUN (IDRACUNA,CENARACUNA,BRSTAVKI,VREMEIZDAVANJARACUNA,DATUMIZDAVANJARACUNA,TIPRACUNA,PRODAVAC_JMBGZAPOSLENOG)&lt;br/&gt;VALUES (&apos;racun7&apos;,400,2,&apos;02:48 AM&apos;,&apos;22-SEP-20&apos;, &apos;dinarskiracun&apos;,&apos;0805995024565&apos;);&lt;br/&gt;INSERT INTO RACUN (IDRACUNA,CENARACUNA,BRSTAVKI,VREMEIZDAVANJARACUNA,DATUMIZDAVANJARACUNA,TIPRACUNA,PRODAVAC_JMBGZAPOSLENOG)&lt;br/&gt;VALUES (&apos;racun8&apos;,550,2,&apos;06:19 PM&apos;,&apos;25-SEP-20&apos;,&apos;dinarskiracun&apos;,&apos;0805995024565&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idracuna" id="A1B8C842-C6A9-CEEA-A526-820EEDA07026">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>1D37968B-0E21-8D29-E903-97354E46C892</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenaracuna" id="FB6F2480-14F3-899A-E1DA-6565AB331F24">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>E08B67ED-6B19-C518-FA2B-E47CA4B2CDA4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="brstavki" id="B767D436-0F4A-4270-4CE5-0D7435AF8950">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>C6AECC68-66EA-33C4-C838-5AA112F437E1</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="vremeizdavanjaracuna" id="FB545877-858D-39A3-4B3B-9CEB4C089A8C">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>451A8280-3C49-E2E3-23ED-7106812DD851</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<domain>005E256A-5318-A6BC-CDF9-DA4B6AF6310D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datumizdavanjaracuna" id="99B65373-8E02-5043-3241-D58BF4CE4393">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>5F383D62-5DBA-DFB6-0DA7-A33F40FF754D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>79504517-4103-D256-246D-2BE546785A1A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipracuna" id="A0B1C91A-7109-4494-0083-331A24FB86EC">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>7A91025D-294F-AA14-7BAB-7F6964EDA088</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>39EAF2F8-BBCD-4FC1-2B0E-5945A639E09B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prodavac_jmbgzaposlenog" id="FDB46730-46B8-01A5-C71D-EF52B2CD6675">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>75FC908E-8F7C-55B4-EA6D-F06438A8628C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66350BD5-ED7B-20E3-2CF2-F8F05AD9E41B" referredColumn="CF7E3C2F-3897-4816-9A61-7057E6894BBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60F66A29-F1D4-2B7E-7B96-86C072A1F69F" name="Racun_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>37E13585-EA3D-A5AB-4566-24E4CF4D86A2</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1B8C842-C6A9-CEEA-A526-820EEDA07026"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF02126D-FE7E-747F-7651-E78857E6EC46" name="Racun_Prodavac_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>9BEFEDC5-6B84-3C38-FF48-2C11457D2A95</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDB46730-46B8-01A5-C71D-EF52B2CD6675"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

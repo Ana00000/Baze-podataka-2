@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FD94B73-A3E3-7F93-13EA-166D2F45E1F1" name="Nalazi">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 17:41:51 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="jmbgzaposlenog" id="49A0697C-F4A3-8BE3-B6E2-667A371C2F98">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 17:44:55 UTC</createdTime>
+<generatorID>BD0EDAFC-107C-4694-9E5F-65194D568265</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<referedAttribute>28E0E1DF-47A3-51F7-4E8F-19B64A0CBBB2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idlanca" id="5A656770-70CB-910B-7F9B-2A4E6ABD337E">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 17:47:13 UTC</createdTime>
+<generatorID>A49E1DB6-6623-36FC-85E0-0BC2A62FE60A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<referedAttribute>6D7AC4C0-4274-323A-7578-CE6680104E39</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idstanda" id="536ECFE1-7D38-CB92-7039-821E8677711E">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-30 08:15:59 UTC</createdTime>
+<generatorID>A49E1DB6-6623-36FC-85E0-0BC2A62FE60A</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<referedAttribute>AAA49A8D-616A-60C2-3529-A701ECDC1999</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7D0DDF32-CA6E-0CBE-B244-AA099253CF08" name="Nalazi PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 17:42:09 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5A656770-70CB-910B-7F9B-2A4E6ABD337E</attributeRef>
+<attributeRef>536ECFE1-7D38-CB92-7039-821E8677711E</attributeRef>
+<attributeRef>49A0697C-F4A3-8BE3-B6E2-667A371C2F98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

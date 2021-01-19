@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE70C9D7-42B5-6A6A-D587-41CFEC14EDFD" containerWithKeyObject="04516F42-536D-7A8D-53EF-F3144F637A13" localFKIndex="9139EDA3-56A5-F2F4-F55B-7C5DC9052BFA" name="Sl_u_kutiji_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>2F536204-AE89-310A-727A-C6B41F1F87AC</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Sladoled</referredTableLongName>
+<arc>F7067E96-A266-8453-92ED-F70859B9F975</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>50BC61D5-2286-366D-7DF0-A3BF06A57E7C</referredTableID>
+<keyObject>199404AF-4FAB-6668-4DFC-C55E4A051309</keyObject>
+<referredKeyID>199404AF-4FAB-6668-4DFC-C55E4A051309</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nazivsladoleda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>Sl_u_kutiji</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1F86900-C4E8-07E1-DF2C-40701A2758F9" name="Prodavac">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>F9A319A5-48FE-D463-3F21-D5EE87E6AF29</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO PRODAVAC (JMBGZAPOSLENOG) VALUES (&apos;1111998823424&apos;);&lt;br/&gt;INSERT INTO PRODAVAC (JMBGZAPOSLENOG) VALUES (&apos;0308996840504&apos;);&lt;br/&gt;INSERT INTO PRODAVAC (JMBGZAPOSLENOG) VALUES (&apos;0404995375804&apos;);&lt;br/&gt;INSERT INTO PRODAVAC (JMBGZAPOSLENOG) VALUES (&apos;0805995024565&apos;);&lt;br/&gt;INSERT INTO PRODAVAC (JMBGZAPOSLENOG) VALUES (&apos;1403998944201&apos;);&lt;br/&gt;&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="jmbgzaposlenog" id="CF7E3C2F-3897-4816-9A61-7057E6894BBC">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>28E0E1DF-47A3-51F7-4E8F-19B64A0CBBB2</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>E887C18F-3AC8-420A-4B7D-910C77B9103F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1080C5BF-9A68-74F0-B57B-8FEB6DA67AB5" referredColumn="2DA1C35A-05AA-A80F-F874-27C8A4FBFEEA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02A77E42-F341-17D7-EBE4-146900048E3E" name="Prodavac_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>DE9657EB-9122-281B-D469-400A74EE3E80</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF7E3C2F-3897-4816-9A61-7057E6894BBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="598F24C8-DC02-1ACC-4134-56D0758DAF67" name="Prodavac_Zaposlenik_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>074FC8E4-2D39-F340-B954-48CF7E46B8A7</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF7E3C2F-3897-4816-9A61-7057E6894BBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

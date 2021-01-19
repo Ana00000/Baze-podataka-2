@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04516F42-536D-7A8D-53EF-F3144F637A13" name="Sl_u_kutiji">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>9FFFCC5F-574F-AB9E-29F9-14907EBBBF1B</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nazivsladoleda" id="A8448267-3B69-A4D9-CA72-433DD73F821E">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>68C11221-73BA-3CDC-FDFB-621CCEFFBCEB</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE70C9D7-42B5-6A6A-D587-41CFEC14EDFD" referredColumn="CF8D4888-09A9-01BF-C49A-012DD49720DE"/>
+</associations>
+</Column>
+<Column name="Pl_kašika_idkasike" id="3855FA5F-6CDD-D913-63ED-9777AB78CDD7">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>BBC8B8EA-7B5B-D793-2459-42C1157CA1E6</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="327476C3-E800-2A9C-958C-88AA72BA142A" referredColumn="6086CCC8-D03D-C097-014C-6BE730508DC7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDB3D5B5-8922-BC12-E29E-A9122B0B1834" name="Sl_u_kutiji_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>6D576684-949E-C480-173D-42BA0C4AE3C4</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8448267-3B69-A4D9-CA72-433DD73F821E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BDBE8CB2-95D7-4C0C-5AC8-0A4203AC434F" name="Sl_u_kutiji__IDX">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BB577368-3B5B-435D-EAFD-FE6004E89DD1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3855FA5F-6CDD-D913-63ED-9777AB78CDD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9139EDA3-56A5-F2F4-F55B-7C5DC9052BFA" name="Sl_u_kutiji_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>2F536204-AE89-310A-727A-C6B41F1F87AC</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8448267-3B69-A4D9-CA72-433DD73F821E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="971715F7-2B30-40E7-CA1D-4AABF81E7804" name="Sl_u_kutiji_Pl_kašika_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:58:25 UTC</createdTime>
+<generatorID>BB577368-3B5B-435D-EAFD-FE6004E89DD1</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3855FA5F-6CDD-D913-63ED-9777AB78CDD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

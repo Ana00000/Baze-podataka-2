@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C17FF445-4891-6323-A776-1F2C6A265102" containerWithKeyObject="A2DC912E-211A-3E98-558B-6DB008713FF8" localFKIndex="D3FDCC6A-47E8-AD02-F12C-D108BB848935" name="Nalazi_Prodavac_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 12:40:14 UTC</createdTime>
+<generatorID>AB357E70-1246-5641-9FCC-1184589BDB25</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<referredTableLongName>Prodavac</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4B09DDD-D121-C851-218D-3F4EA30F711E</referredTableID>
+<keyObject>E6C68552-B4E2-6885-E431-71C08F5F2D99</keyObject>
+<referredKeyID>E6C68552-B4E2-6885-E431-71C08F5F2D99</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>jmbgzaposlenog</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

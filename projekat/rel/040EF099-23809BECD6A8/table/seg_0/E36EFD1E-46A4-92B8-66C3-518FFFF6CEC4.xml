@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E36EFD1E-46A4-92B8-66C3-518FFFF6CEC4" name="Stavka">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>5E598CFF-CE55-5A74-BD11-28EC9885CEC1</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka1&apos;,150,1,&apos;Plazma sladoled&apos;,&apos;racun1&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka2&apos;,150,1,&apos;Plazma sladoled&apos;,&apos;racun2&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka3&apos;,100,1,&apos;Mars sladoled&apos;,&apos;racun2&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka4&apos;,200,1,&apos;Rum sladoled&apos;,&apos;racun3&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka5&apos;,100,1,&apos;Vanila sladoled&apos;,&apos;racun3&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka6&apos;,200,2,&apos;Rafaelo sladoled&apos;,&apos;racun4&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka7&apos;,100,1,&apos;Mars sladoled&apos;,&apos;racun5&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka8&apos;,300,2,&apos;Plazma sladoled&apos;,&apos;racun6&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka9&apos;,200,2,&apos;Rum sladoled&apos;,&apos;racun7&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka10&apos;,200,2,&apos;Rafaelo sladoled&apos;,&apos;racun7&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka11&apos;,450,3,&apos;Plazma sladoled&apos;,&apos;racun8&apos;);&lt;br/&gt;INSERT INTO STAVKA (IDSTAVKE,CENASTAVKE,KOLICINASLADOLEDA,SLADOLED_NAZIVSLADOLEDA,RACUN_IDRACUNA)&lt;br/&gt;VALUES (&apos;stavka12&apos;,100,1,&apos;Mars sladoled&apos;,&apos;racun8&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idstavke" id="98BA72FF-535B-1034-F072-61264AB5BF77">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>7DAA1DE8-8F3C-7921-74C2-E54C3343E808</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cenastavke" id="D3EE242F-80B3-D820-7F7C-0606FA021CE1">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>9F025E2B-8647-6289-3B39-2A4390423BBD</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="kolicinasladoleda" id="FED15F4C-D9D9-1EBA-1CA6-486FAEEB71BC">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>DCA8F5BD-ADE5-D4AF-F0DC-FFB699404D0D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Sladoled_nazivsladoleda" id="C58EF59C-93E1-AFA3-29BD-3C257036DB3A">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>7BC03754-C714-801B-BD46-B50F7F7029CB</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C83661E-E522-51C6-8544-40BE270C23A1" referredColumn="4F826A06-4F28-4FC9-1FB0-B0F3D8473FBB"/>
+</associations>
+</Column>
+<Column name="Racun_idracuna" id="985A4395-BD3B-1DE0-5606-00792E001437">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>6E0FC7EC-9559-8C79-39E1-F4014E5E0D9D</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C34CAD6-D8EE-2DA4-B4CE-A711201E7541" referredColumn="A1B8C842-C6A9-CEEA-A526-820EEDA07026"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88FAA87B-B3D9-735F-9804-0ABAEB9F3528" name="Stavka_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>EA8D7745-C901-B51C-E6A0-EDC96A5992F7</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98BA72FF-535B-1034-F072-61264AB5BF77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30170F8B-72FC-F8B9-71C3-00B1758B810B" name="Stavka_Racun_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>6C3C5DD7-DEEE-92B7-7E30-216576BA0780</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="985A4395-BD3B-1DE0-5606-00792E001437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="574ED8E9-6139-01B8-AA70-C2DF480AE698" name="Stavka_Sladoled_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>E4A144BF-6FA5-CAF7-4C68-1C6D69CE8BEE</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C58EF59C-93E1-AFA3-29BD-3C257036DB3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

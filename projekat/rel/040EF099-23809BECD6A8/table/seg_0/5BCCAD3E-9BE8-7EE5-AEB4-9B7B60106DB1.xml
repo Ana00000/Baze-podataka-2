@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5BCCAD3E-9BE8-7EE5-AEB4-9B7B60106DB1" name="Stand">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>D3AE29BF-F4E0-07F3-1146-2C999A8912AF</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<afterCreate>INSERT INTO STAND (IDSTANDA,IMESTANDA,BRZAPOSLENIH,BRSLADOLEDA,BRMARKI,LANACSTANDOVA_IDLANCA) VALUES (&apos;stand1&apos;, &apos;Stand 1&apos;, 1, 10, 2, &apos;lanac1&apos;);&lt;br/&gt;INSERT INTO STAND (IDSTANDA,IMESTANDA,BRZAPOSLENIH,BRSLADOLEDA,BRMARKI,LANACSTANDOVA_IDLANCA) VALUES (&apos;stand2&apos;, &apos;Stand 2&apos;, 2, 5, 2, &apos;lanac2&apos;);&lt;br/&gt;INSERT INTO STAND (IDSTANDA,IMESTANDA,BRZAPOSLENIH,BRSLADOLEDA,BRMARKI,LANACSTANDOVA_IDLANCA) VALUES (&apos;stand3&apos;, &apos;Stand 3&apos;, 1, 4, 1, &apos;lanac2&apos;);&lt;br/&gt;INSERT INTO STAND (IDSTANDA,IMESTANDA,BRZAPOSLENIH,BRSLADOLEDA,BRMARKI,LANACSTANDOVA_IDLANCA) VALUES (&apos;stand4&apos;, &apos;Stand 4&apos;, 0, 0, 0, &apos;lanac2&apos;);&lt;br/&gt;INSERT INTO STAND (IDSTANDA,IMESTANDA,BRZAPOSLENIH,BRSLADOLEDA,BRMARKI,LANACSTANDOVA_IDLANCA) VALUES (&apos;stand5&apos;, &apos;Stand 5&apos;, 1, 6, 2, &apos;lanac3&apos;);&lt;br/&gt;INSERT INTO STAND (IDSTANDA,IMESTANDA,BRZAPOSLENIH,BRSLADOLEDA,BRMARKI,LANACSTANDOVA_IDLANCA) VALUES (&apos;stand6&apos;, &apos;Stand 6&apos;, 0, 0, 0, &apos;lanac3&apos;);&lt;br/&gt;</afterCreate>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idstanda" id="4AEBF960-E3B7-C62E-0696-25F2B1909852">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>AAA49A8D-616A-60C2-3529-A701ECDC1999</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imestanda" id="539F97CC-8CA7-A3B7-7EF0-09E0DFD7CCE1">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>56885F8E-E96F-6588-15B9-9815FF3933B1</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brzaposlenih" id="5F833F8D-CC82-331D-1934-3B25966397AE">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>9B24DE01-AC98-20F6-CF80-00BF998D22FD</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="brsladoleda" id="FAAB3531-E194-78D5-9152-823DC7CDD78C">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>7CF627C7-9C0F-F06C-9458-AD70C725D9E9</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="brmarki" id="6F52D694-F843-27C2-B085-20BD45C43E47">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>9367BED1-67AB-47CF-7F6C-7D7FCA705DC0</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>02991AEE-B0BF-FB60-7C7B-FCD70AF8CE10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100000</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="LanacStandova_idlanca" id="EE95F00D-A397-FB03-AB70-47F0DEA94ED9">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>6D7AC4C0-4274-323A-7578-CE6680104E39</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>01B1CFE5-DC2B-ECBE-20F9-7F316782F9CC</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="824EC95D-61B5-297D-EF2F-A6BA1BF391AD" referredColumn="6B0CC91A-F802-9FA1-73A2-6BF02F726C86"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C70064F-3EA4-D777-D0F6-695729BD9DA0" name="Stand_PK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>A89B1E1B-EF26-8E21-7670-9A3FE7087A99</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AEBF960-E3B7-C62E-0696-25F2B1909852"/>
+<colUsage columnID="EE95F00D-A397-FB03-AB70-47F0DEA94ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AD86797-C345-928C-7E37-48A5FDB6E9AB" name="Stand_LanacStandova_FK">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-29 00:52:09 UTC</createdTime>
+<generatorID>84563216-5E54-2D8D-DD97-C5E9AC98231C</generatorID>
+<ownerDesignName>projekat</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE95F00D-A397-FB03-AB70-47F0DEA94ED9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

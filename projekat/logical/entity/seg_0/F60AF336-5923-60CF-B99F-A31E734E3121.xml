@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F60AF336-5923-60CF-B99F-A31E734E3121" name="PlasticnaKasika">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:27:27 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="18E200F1-93BA-61BC-6AF4-F1AF2F6F2315" value="true"/>
+<item key="9410C449-7FCF-AC27-BD71-9B10262318C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>2C38F89E-B09A-3473-18E7-970BA9EADCCD</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PlKasika</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bojakasike" id="5DABD2C4-86F0-E1CE-ADC6-8E4C663B9BD4">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-28 01:27:32 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="18E200F1-93BA-61BC-6AF4-F1AF2F6F2315" value="true"/>
+<item key="9410C449-7FCF-AC27-BD71-9B10262318C1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>55EECF6D-0AFC-7071-D4A1-07389F88CF59</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

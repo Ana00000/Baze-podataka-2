@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Jeste" directorySegmentName="seg_0" id="E4A144BF-6FA5-CAF7-4C68-1C6D69CE8BEE">
+<createdBy>Asus</createdBy>
+<createdTime>2020-12-27 22:30:20 UTC</createdTime>
+<ownerDesignName>projekat</ownerDesignName>
+<engineerTo>
+<item key="040EF099-14D8-CDDC-0001-23809BECD6A8" value="true"/>
+</engineerTo>
+<sourcePk>EA8D7745-C901-B51C-E6A0-EDC96A5992F7</sourcePk>
+<targetPk>6D576684-949E-C480-173D-42BA0C4AE3C4</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>5E598CFF-CE55-5A74-BD11-28EC9885CEC1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DF7B4DDF-A1DC-CF06-8764-4C31DDA3CB8B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
